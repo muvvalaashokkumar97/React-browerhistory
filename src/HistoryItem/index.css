@@ -1,0 +1,94 @@
+.listItem {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 5px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.timeAccessed {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.logoUrl {
+  width: 12px;
+  height: 12px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+.title {
+  color: #475569;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.domainUrl {
+  margin-left: 10px;
+  color: #64748b;
+  font-weight: 500;
+  font-size: 10px;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+}
+.delete {
+  height: 12px;
+  width: 12px;
+}
+@media screen and (min-width: 768px) {
+  .listItem {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .timeAccessed {
+    color: #64748b;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Roboto';
+  }
+  .logoUrl {
+    width: 12px;
+    height: 12px;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  .title {
+    color: #475569;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 12px;
+  }
+  .domainUrl {
+    margin-left: 10px;
+    color: #64748b;
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .button {
+    background-color: transparent;
+    border: 0px;
+  }
+  .delete {
+    height: 12px;
+    width: 12px;
+  }
+}
